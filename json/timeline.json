@@ -1,0 +1,38 @@
+{
+    "timeline":
+    {
+        "headline":"Historial de eventos",
+        "type":"default",
+        "text":"<p>sucesos de azul</p>",
+        "asset": {
+            "media":"img/User-Executive-Blue-icon.png",
+            "credit":"azul",
+            "caption":"se unio azul"
+        },
+        "date": [
+            {
+                "startDate":"2015,12,10,07,02,10",
+                "endDate":"2015,12,11,08,11",
+                "headline":"agrego a rojo",
+                "text":"<p>azul y rojo son socios</p>",
+                "asset": {
+                    "media":"img/User-Executive-Red-icon.png",
+                    "credit":"rojo",
+                    "caption":"rojo acepto sociedad"
+                }
+            },
+            {
+                "startDate":"2015,12,10,07,05,10",
+                "endDate":"2015,12,11,13,11",
+                "headline":"agrego a verde",
+                "text":"<p>azul y verde son socios</p>",
+                 "asset": {
+                    "media":"img/User-Executive-Green-icon.png",
+                    "credit":"verde",
+                    "caption":"verde acepto sociedad"
+                }
+            }
+
+        ]
+    }
+}

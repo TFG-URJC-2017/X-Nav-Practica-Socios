@@ -1,0 +1,45 @@
+input, output { 
+  width: 40px;
+  height: 40px;
+  margin:2px;
+  border-radius: 5px;
+}
+
+#reset_image {
+  width: 142px;
+}
+#sizepen{
+   width: 140px; 
+}
+#Red {
+      background-color: red;
+}
+
+#Green {
+      background-color: green;
+}
+
+#Blue {
+      background-color: blue;
+}
+
+#Black {
+      background-color: black;
+}
+#White {
+    background-color: white;
+}
+#Tools{    
+    float: right;
+    padding:20px;
+    width: 200px;
+    font: 120% sans-serif;
+    background-color:rgba(88, 88, 88, 0.4);  
+    border-radius: 25px;
+}    
+
+canvas {
+  border-width: 1;
+  border: solid;  
+}
+

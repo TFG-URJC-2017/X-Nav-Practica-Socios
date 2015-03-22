@@ -1,0 +1,106 @@
+
+html,body{
+  width:auto;
+  height:100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Ridge-Regular";
+  src: url("../fonts/Ridge-Regular.otf");
+}
+
+h1{
+    font-family: "Ridge-Regular";
+}
+h2{
+    color: #000;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+#password,#conf,#socios{
+    width:auto;
+    height:100%;
+    background-color:gray;   
+     z-index:20;    
+}
+#password{
+    z-index:200; 
+}
+#socios{
+     background:url("../img/Lattice.png  ");
+}
+#conf{
+     background:url("../img/wireball.png");
+}
+
+#sociosBar,#confBar{
+     height:100%;
+     background-color:gainsboro;
+     z-index:200;
+}
+#profile, #group, #config, #custom, #secure, #back{
+    height:28%;
+}
+#info{
+    height:70px;
+    background-color:white;   
+}
+#avisos{
+    padding-top:5px;
+    padding-right:5px;
+    position: absolute;
+    right:0;
+}
+#avisos1, #avisos2, #avisos3{
+    
+    float:right;
+    padding:5px;
+    margin:1px;
+    border-radius: 8px;
+}
+#avisos1{ 
+    cursor:pointer;  
+    background-color:red;   
+}
+#avisos2{
+    cursor:pointer;
+    background-color:green;   
+}
+#avisos3{
+    cursor:pointer;
+    background-color:deepskyblue;   
+}
+#down{
+    left:0;
+    padding:0;
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+img{
+    width:90px;
+    height:90px;
+}
+.ui-tabs .ui-tabs-nav
+{
+    background: lightblue;
+}
+.ui-datepicker {
+    padding: 0.2em 0.2em 0;
+    width: 1060px;
+}
+#actualizaciones,#mensajesPanel,#profilePanel,#groupPanel,#customPanel,#securePanel{
+    top:70px;
+    left:230px;
+    position: absolute;
+    height:100%; 
+    z-index:-1;
+    background:url("../img/Lattice.png  ");
+}
+#customPanel,#securePanel{
+    background:url("../img/wireball.png");
+}

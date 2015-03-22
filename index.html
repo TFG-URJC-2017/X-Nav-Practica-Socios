@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Socios</title> 
+        <link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.css">    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="http://cdn.knightlab.com/libs/timeline/latest/css/timeline.css">
+        <link rel="stylesheet" href="css/paint.css">     
+        <link rel="stylesheet" href="css/previoSocios.css"> 
+        <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAD///9K7u7ufz4+PoAKCgqACgoKgAoKCoAKCgqACgoKgAoKCoAKCgqACgoKgFNTU4AKCgqAMDAwgO7u7n////9M7u7ulczMzP9mZmb/AAAA/wAAAP8HBwf/DQ0N/w8PD/8AAAD/AAAA/wAAAP8PDw//AAAA/0JCQv/MzMz/6Ojome7u7pXMzMz/jo6O/wAAAP8CAgL/QEBA/xsbG/86Ojr/AAAA/wAAAP8AAAD/AAAA/wAAAP9wcHD/zMzM/+jo6Jnu7u6VzMzM/52dnf8AAAD/FBQU/4CAgP8qKir/ZmZm/wAAAP8AAAD/AAAA/wAAAP8GBgb/ubm5/8zMzP/o6OiZ7u7ulc3Nzf+RkZH/AAAA/yYmJv+9vb3/WFhY/5OTk/8AAAD/AAAA/wAAAP8AAAD/Li4u/9LS0v/Nzc3/6Ojome7u7pXPz8//mZmZ/wAAAP8WFhb/ubm5/2RkZP/BwcH/AAAA/wAAAP8AAAD/AAAA/3Fxcf/W1tb/z8/P/+jo6Jnv7++V0dHR/9fX1/+UlJT/V1dX/5GRkf+goKD/2NjY/xMTE/8AAAD/AAAA/x8fH//X19f/2NjY/9LS0v/p6emZ8PDwldPT0//Z2dn/4ODg/+bm5v91dXX/ExMT/8LCwv97e3v/nZ2d/8bGxv/i4uL/4ODg/9nZ2f/T09P/6urqmfDw8JXT09P/2dnZ/+Dg4P/h4eH/Hx8f/wAAAP8LCwv/8/Pz//Pz8//t7e3/5ubm/+Dg4P/Z2dn/09PT/+rq6pnv7++V0tLS/9jY2P/e3t7/mpqa/wAAAP8AAAD/AAAA/7e3t//w8PD/6+vr/+Xl5f/f39//2NjY/9LS0v/p6emZ7u7uldDQ0P/W1tb/3Nzc/zMzM/8AAAD/AAAA/wAAAP82Njb/6+vr/+fn5//i4uL/3Nzc/9bW1v/Q0ND/6Ojome7u7pXNzc3/09PT/9jY2P8hISH/AAAA/wAAAP8AAAD/Nzc3/+Xl5f/i4uL/3d3d/9jY2P/T09P/zs7O/+jo6Jnu7u6VzMzM/8/Pz//U1NT/Kysr/wAAAP8AAAD/AAAA/0BAQP/f39//3Nzc/9nZ2f/U1NT/z8/P/8zMzP/o6OiZ7u7ulczMzP/MzMz/z8/P/4iIiP8DAwP/AAAA/w0NDf+jo6P/2dnZ/9bW1v/T09P/z8/P/8zMzP/MzMz/6Ojome7u7pXMzMz/zMzM/8zMzP/Ozs7/v7+//7a2tv/Nzc3/09PT/9LS0v/Q0ND/zs7O/8zMzP/MzMz/zMzM/+jo6Jn///9n6urqsOrq6rDq6uqw6urqsOrq6rDr6+uw6+vrsOvr67Dr6+uw6urqsOrq6rDq6uqw6urqsOrq6rD///9qAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="  type="image/x-icon">
+	</head>
+	<body>
+        <div id="password">
+             <h1>SOCIOS</h1>
+            <button class="col-lg-12 text-center" onclick="sociosToFg();location.href = '#socios';"><img src="img/keyring-icon.png" alt="volver a la pantalla principal"></img></button>
+        </div>    
+        <div id="socios">
+            <div id="sociosBar" class="col-lg-2 text-center">
+                <h1>SOCIOS</h1>
+                <button id="profile" class="col-lg-12 text-center" onclick="alert('perfil no implementado');"><img src="img/profile-icon.png" alt="personalizacion"></button>
+                <button id="group" class="col-lg-12 text-center" onclick="alert('grupo no implementado');"><img src="img/profile-group-icon.png" alt="seguridad"></img></button>
+                <button id="config" class="col-lg-12 text-center" onclick="sociosToBg();location.href = '#conf';"><img src="img/cog-icon.png" alt="volver a la pantalla principal"></img></button>
+            </div>
+             <div id="info" class="col-lg-10 text-center">
+                <div id="avisos" class="text-right">
+                    <p id="avisos1" class="text-left"><i class="fa fa-envelope"></i>:3</p>
+                    <p id="avisos2" class="text-left"><i class="fa fa-comments"></i>:1</p>
+                    <p id="avisos3" class="text-left"><i class="fa fa-briefcase"></i>:2</p>
+                </div>
+                <h1>SOCIOS</h1>  
+            </div>
+            <div id="actualizaciones" class="col-lg-10 text-center">
+                <h2>Actualizaciones</h2>
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Timeline</a></li>
+                        <li><a href="#tabs-2">Calendario</a></li>
+                        <li><a href="#tabs-3">Notas</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div id="my-timeline"></div>                        
+                    </div>
+                    <div id="tabs-2">
+                        <div id="datepicker"></div>
+                    </div>
+                    <div id="tabs-3">
+                        <input id="tag" class="col-lg-12"><br>
+                        <canvas id="canvas" width="700" height="400">
+                            Tu navegador no soporta canvas de HTML 5. 
+                        </canvas>
+                        <div id="Tools">  
+                            <input type="button" id="Red"/>
+                            <input type="button" id="Green"/>
+                            <input type="button" id="Blue"/>
+                            <input type="button" id="Black"/>
+                            <input type="button" id="White"/>
+                            <input type="button" id="reset_image" value="Limpiar"/>            
+                            <input type="range"  id="sizepen" min="1" max="10" value="7" step="1" onchange="showValue(this.value)"/>
+                            <output > <i class='fa fa-pencil'></i><span id="range">7</span></output>
+                            <p>Color: <span id="color_chosen">Black</span></p>
+                        </div>  
+                        
+                    </div>
+                </div>
+            </div>    
+            <div id="mensajesPanel" class="col-lg-10 text-center">
+                <h2>Mensajes nuevos</h2>
+                <h2>Mensajes viejos</h2>
+            </div>
+            <div id="profilePanel" class="col-lg-10 text-center">
+                <h2>MI PERFIL</h2>
+            </div>
+            <div id="groupPanel" class="col-lg-10 text-center">
+                <h2>MIS SOCIOS</h2>
+            </div>
+        </div>
+        <div id="conf">
+            <div id="confBar" class="col-lg-2 text-center">
+                <h1>SOCIOS</h1>
+                <button id="custom" class="col-lg-12 text-center" onclick="alert('personalización no implementada');"><img src="img/mixer-icon.png" alt="personalizacion"></button>
+                <button id="secure" class="col-lg-12 text-center" onclick="alert('seguridad no implementada');"><img src="img/shield-icon.png" alt="seguridad"></img></button>
+                <button id="back" class="col-lg-12 text-center" onclick="sociosToFg();location.href = '#socios';"><img src="img/go-back-icon.png" alt="volver a la pantalla principal"></img></button>
+            </div>
+            <div id="confPanel" class="col-lg-10 text-center">
+                <h2>CONFIGURACIÓN</h2>
+            </div>
+            <div id="customPanel" class="col-lg-10 text-center">
+                <h2>PERSONALIZACIÓN</h2>
+            </div>
+            <div id="securePanel" class="col-lg-10 text-center">
+                <h2>SEGURIDAD</h2>
+            </div>
+        </div>
+        <script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>        
+        <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
+        <script src="js/storyjs-embed.js"></script>
+        <script src="js/paint.js"></script>
+        <script src="js/previoSocios.js"></script>
+	</body>
+</html>
