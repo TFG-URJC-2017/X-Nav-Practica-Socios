@@ -66,13 +66,13 @@ $(document).ready(function() {
             });
  $.getJSON("json/update.json", function(data) {
      for(var i=0; i<data.update.length; i++) {   
-            $('#tabs-n').prepend('<h3><img style="height:64px; width:64px;"  src="'+data.update[i].avatar+'"></img>' + data.update[i].autor +': '+data.update[i].titulo +'</h3>'+'<div><p>'+data.update[i].contenido+'</p><br></div>');    
+            $('#tabs-n').prepend('<h3><img style="height:40px; width:40px;"  src="'+data.update[i].avatar+'"></img>' + data.update[i].autor +': '+data.update[i].titulo +'</h3>'+'<div><p>'+data.update[i].contenido+'</p><br></div>');    
       } ;
       $("#tabs-n").accordion(); 
     });
 $.getJSON("json/myline.json", function(data) {
       for(var i=0; i<data.myline.length; i++) {   
-            $('#tabs-v').prepend('<h3>'+ data.myline[i].autor + ": "+data.myline[i].titulo +'</h3>'+'<div><p><img style="height:64px; width:64px;"  src="'+data.myline[i].avatar+'"></img>'+data.myline[i].contenido+'</p><br></div>');    
+            $('#tabs-v').prepend('<h3>'+ data.myline[i].autor + ": "+data.myline[i].titulo +'</h3>'+'<div><p><img style="height:40px; width:40px;"  src="'+data.myline[i].avatar+'"></img>'+data.myline[i].contenido+'</p><br></div>');    
       } ;
       $("#tabs-v").accordion(); 
     }); 
