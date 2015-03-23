@@ -105,7 +105,7 @@ img{
     background:url("../img/wireball.png");
 }
 #mensajesNPanel,#mensajesVPanel{
-    height:45%;
+    height:40%;
     background-color:#FF3300;    
     overflow-y: scroll;
 }
