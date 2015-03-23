@@ -104,3 +104,20 @@ img{
 #customPanel,#securePanel{
     background:url("../img/wireball.png");
 }
+#mensajesNPanel,#mensajesVPanel{
+    height:45%;
+    background-color:#FF3300;    
+    overflow-y: scroll;
+}
+
+#chat{
+     background-color:green; 
+     height:100%;
+     float:right;
+}
+#toChat{
+    height:400px;
+}
+#textChat{
+    height:90px;
+}

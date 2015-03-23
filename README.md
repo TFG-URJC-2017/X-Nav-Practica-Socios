@@ -13,6 +13,6 @@ Vamos a construir parte del interfaz de usuario de la aplicación Socios, una nu
 * Hecho tipo aplicación, quitando scrolls y superponiendo pantallas
 * font otf para poner el titulo
 * favicon 
-* 
+* auto completar en el chat para enviar a los contactos
 
 no he añadido el contenido del resto de paneles como perfil, grupo, personalización, seguridad, solo funcionan los mensajes de arriba a la izquierda y los botones para ir a al menu de configuración, volver al menu principal y el boton que simula la entrada de contraseña

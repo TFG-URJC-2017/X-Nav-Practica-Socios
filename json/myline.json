@@ -1,0 +1,25 @@
+{
+    "myline":[
+    {
+        "fecha":"2015,12,10,07,02,10",
+        "autor":"Verde",
+        "avatar":"img/User-Executive-Green-icon.png",
+        "titulo":"¿tu aqui?",
+        "contenido":"Parece interesante esta nueva web"
+     },
+     {
+        "fecha":"2015,12,11,07,02,10",
+        "autor":"Rojo",
+        "avatar":"img/User-Executive-Red-icon.png",
+        "titulo":"hola",
+        "contenido":"estan de moda las redes sociales"
+     },
+     {
+        "fecha":"2015,12,12,07,02,10",
+        "autor":"Rojo",
+        "avatar":"img/User-Executive-Red-icon.png",
+        "titulo":"aqui iria algo ingenioso",
+        "contenido":"nahh te engañe, solo es otra frase chorra"
+     }
+     ]
+}
