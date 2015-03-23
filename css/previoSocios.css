@@ -105,9 +105,10 @@ img{
     background:url("../img/wireball.png");
 }
 #mensajesNPanel,#mensajesVPanel{
-    height:40%;
+    height:42%;
     background-color:#FF3300;    
     overflow-y: scroll;
+    padding:5px;
 }
 
 #chat{
